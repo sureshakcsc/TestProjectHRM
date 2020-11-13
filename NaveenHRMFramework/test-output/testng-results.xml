@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50009" started-at="2020-11-08T06:51:13Z" finished-at="2020-11-08T06:52:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50009" started-at="2020-11-08T06:51:13Z" finished-at="2020-11-08T06:52:03Z">
+      <class name="com.dxc.testcases.Dashboardtestcase">
+        <test-method status="PASS" signature="enteruserdata(java.lang.String, java.lang.String)[pri:0, instance:com.dxc.testcases.Dashboardtestcase@1057a39]" name="enteruserdata" duration-ms="7704" started-at="2020-11-08T06:51:55Z" finished-at="2020-11-08T06:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dxcusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteruserdata -->
+      </class> <!-- com.dxc.testcases.Dashboardtestcase -->
+      <class name="com.dxc.testcases.Loginpagetestcase">
+        <test-method status="PASS" signature="setupmethod()[pri:0, instance:com.dxc.testcases.Loginpagetestcase@15530b9]" name="setupmethod" is-config="true" duration-ms="31509" started-at="2020-11-08T06:51:13Z" finished-at="2020-11-08T06:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupmethod -->
+        <test-method status="PASS" signature="loginmethod()[pri:0, instance:com.dxc.testcases.Loginpagetestcase@15530b9]" name="loginmethod" duration-ms="10741" started-at="2020-11-08T06:51:44Z" finished-at="2020-11-08T06:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmethod -->
+      </class> <!-- com.dxc.testcases.Loginpagetestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
